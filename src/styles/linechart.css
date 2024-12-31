@@ -1,0 +1,60 @@
+.line-chart-container {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 90%; /* Increase width */
+  max-width: 1400px; /* Optional, to restrict it for large screens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 1.5rem; /* Slightly increase font size for better readability */
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px; /* Add some spacing between summary items */
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Increase gap between icon and text */
+  flex: 1; /* Ensure equal spacing for each item */
+}
+
+.icon {
+  width: 50px; /* Larger icons */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-item h4 {
+  margin: 0;
+  font-size: 1.4rem; /* Slightly larger font */
+}
+
+.summary-item p {
+  margin: 0;
+  font-size: 1rem;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .summary {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .summary-item {
+    justify-content: center;
+  }
+}
