@@ -11,7 +11,7 @@ const Greeting: React.FC = () => {
       </div>
       <div style={styles.imageContainer}>
         <img
-          src="/Removebg Characters 1.svg" 
+          src="/Removebg Characters 1.svg"
           alt="Kids Playing"
           style={styles.image}
         />
@@ -29,7 +29,7 @@ const styles = {
     borderRadius: "10px",
     backgroundColor: "#f8f9fa",
     gap: "20px",
-    marginBottom: "60px"
+    marginBottom: "60px",
   },
   textContainer: {
     display: "flex",
