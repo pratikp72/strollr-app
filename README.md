@@ -2,7 +2,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 ## its for checking
-## lets stasrt
 First, run the development server:
 
 ```bash
